@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  SharingAssetsWithAnAppClip
+//  MyAppClip
 //
 //  Created by ramil on 05.08.2020.
 //
@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world! (REAL APP)")
+        Text("Hello, world! (APP CLIP)")
             .padding()
             .foregroundColor(Color("SharedColor"))
     }

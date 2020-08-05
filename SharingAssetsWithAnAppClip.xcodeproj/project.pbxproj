@@ -11,7 +11,38 @@
 		955A531624DAC0A300A49003 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955A531524DAC0A300A49003 /* ContentView.swift */; };
 		955A531824DAC0A500A49003 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 955A531724DAC0A500A49003 /* Assets.xcassets */; };
 		955A531B24DAC0A500A49003 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 955A531A24DAC0A500A49003 /* Preview Assets.xcassets */; };
+		955A532924DAC15D00A49003 /* MyAppClipApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955A532824DAC15D00A49003 /* MyAppClipApp.swift */; };
+		955A532B24DAC15D00A49003 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955A532A24DAC15D00A49003 /* ContentView.swift */; };
+		955A532D24DAC15E00A49003 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 955A532C24DAC15E00A49003 /* Assets.xcassets */; };
+		955A533024DAC15E00A49003 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 955A532F24DAC15E00A49003 /* Preview Assets.xcassets */; };
+		955A533524DAC15E00A49003 /* MyAppClip.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = 955A532624DAC15D00A49003 /* MyAppClip.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		955A533B24DAC1A400A49003 /* SharedAssetsCatalog.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 955A533A24DAC1A400A49003 /* SharedAssetsCatalog.xcassets */; };
+		955A533C24DAC1A400A49003 /* SharedAssetsCatalog.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 955A533A24DAC1A400A49003 /* SharedAssetsCatalog.xcassets */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		955A533324DAC15E00A49003 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 955A530824DAC0A300A49003 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 955A532524DAC15D00A49003;
+			remoteInfo = MyAppClip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		955A533924DAC15F00A49003 /* Embed App Clips */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/AppClips";
+			dstSubfolderSpec = 16;
+			files = (
+				955A533524DAC15E00A49003 /* MyAppClip.app in Embed App Clips */,
+			);
+			name = "Embed App Clips";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		955A531024DAC0A300A49003 /* SharingAssetsWithAnAppClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SharingAssetsWithAnAppClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -20,10 +51,25 @@
 		955A531724DAC0A500A49003 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		955A531A24DAC0A500A49003 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		955A531C24DAC0A500A49003 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		955A532624DAC15D00A49003 /* MyAppClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAppClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		955A532824DAC15D00A49003 /* MyAppClipApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAppClipApp.swift; sourceTree = "<group>"; };
+		955A532A24DAC15D00A49003 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		955A532C24DAC15E00A49003 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		955A532F24DAC15E00A49003 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		955A533124DAC15E00A49003 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		955A533224DAC15E00A49003 /* MyAppClip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyAppClip.entitlements; sourceTree = "<group>"; };
+		955A533A24DAC1A400A49003 /* SharedAssetsCatalog.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = SharedAssetsCatalog.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		955A530D24DAC0A300A49003 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		955A532324DAC15D00A49003 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				955A531224DAC0A300A49003 /* SharingAssetsWithAnAppClip */,
+				955A532724DAC15D00A49003 /* MyAppClip */,
 				955A531124DAC0A300A49003 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				955A531024DAC0A300A49003 /* SharingAssetsWithAnAppClip.app */,
+				955A532624DAC15D00A49003 /* MyAppClip.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -55,6 +103,7 @@
 				955A531324DAC0A300A49003 /* SharingAssetsWithAnAppClipApp.swift */,
 				955A531524DAC0A300A49003 /* ContentView.swift */,
 				955A531724DAC0A500A49003 /* Assets.xcassets */,
+				955A533A24DAC1A400A49003 /* SharedAssetsCatalog.xcassets */,
 				955A531C24DAC0A500A49003 /* Info.plist */,
 				955A531924DAC0A500A49003 /* Preview Content */,
 			);
@@ -69,6 +118,27 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		955A532724DAC15D00A49003 /* MyAppClip */ = {
+			isa = PBXGroup;
+			children = (
+				955A532824DAC15D00A49003 /* MyAppClipApp.swift */,
+				955A532A24DAC15D00A49003 /* ContentView.swift */,
+				955A532C24DAC15E00A49003 /* Assets.xcassets */,
+				955A533124DAC15E00A49003 /* Info.plist */,
+				955A533224DAC15E00A49003 /* MyAppClip.entitlements */,
+				955A532E24DAC15E00A49003 /* Preview Content */,
+			);
+			path = MyAppClip;
+			sourceTree = "<group>";
+		};
+		955A532E24DAC15E00A49003 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				955A532F24DAC15E00A49003 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -79,15 +149,34 @@
 				955A530C24DAC0A300A49003 /* Sources */,
 				955A530D24DAC0A300A49003 /* Frameworks */,
 				955A530E24DAC0A300A49003 /* Resources */,
+				955A533924DAC15F00A49003 /* Embed App Clips */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				955A533424DAC15E00A49003 /* PBXTargetDependency */,
 			);
 			name = SharingAssetsWithAnAppClip;
 			productName = SharingAssetsWithAnAppClip;
 			productReference = 955A531024DAC0A300A49003 /* SharingAssetsWithAnAppClip.app */;
 			productType = "com.apple.product-type.application";
+		};
+		955A532524DAC15D00A49003 /* MyAppClip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 955A533624DAC15F00A49003 /* Build configuration list for PBXNativeTarget "MyAppClip" */;
+			buildPhases = (
+				955A532224DAC15D00A49003 /* Sources */,
+				955A532324DAC15D00A49003 /* Frameworks */,
+				955A532424DAC15D00A49003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyAppClip;
+			productName = MyAppClip;
+			productReference = 955A532624DAC15D00A49003 /* MyAppClip.app */;
+			productType = "com.apple.product-type.application.on-demand-install-capable";
 		};
 /* End PBXNativeTarget section */
 
@@ -99,6 +188,9 @@
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
 					955A530F24DAC0A300A49003 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					955A532524DAC15D00A49003 = {
 						CreatedOnToolsVersion = 12.0;
 					};
 				};
@@ -117,6 +209,7 @@
 			projectRoot = "";
 			targets = (
 				955A530F24DAC0A300A49003 /* SharingAssetsWithAnAppClip */,
+				955A532524DAC15D00A49003 /* MyAppClip */,
 			);
 		};
 /* End PBXProject section */
@@ -126,8 +219,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				955A533B24DAC1A400A49003 /* SharedAssetsCatalog.xcassets in Resources */,
 				955A531B24DAC0A500A49003 /* Preview Assets.xcassets in Resources */,
 				955A531824DAC0A500A49003 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		955A532424DAC15D00A49003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				955A533C24DAC1A400A49003 /* SharedAssetsCatalog.xcassets in Resources */,
+				955A533024DAC15E00A49003 /* Preview Assets.xcassets in Resources */,
+				955A532D24DAC15E00A49003 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,7 +247,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		955A532224DAC15D00A49003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				955A532B24DAC15D00A49003 /* ContentView.swift in Sources */,
+				955A532924DAC15D00A49003 /* MyAppClipApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		955A533424DAC15E00A49003 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 955A532524DAC15D00A49003 /* MyAppClip */;
+			targetProxy = 955A533324DAC15E00A49003 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		955A531D24DAC0A500A49003 /* Debug */ = {
@@ -265,6 +386,7 @@
 		955A532024DAC0A500A49003 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +409,7 @@
 		955A532124DAC0A500A49003 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +423,52 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ri.SharingAssetsWithAnAppClip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		955A533724DAC15F00A49003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MyAppClip/MyAppClip.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MyAppClip/Preview Content\"";
+				DEVELOPMENT_TEAM = L8W86DZDY2;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MyAppClip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ri.SharingAssetsWithAnAppClip.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		955A533824DAC15F00A49003 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MyAppClip/MyAppClip.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MyAppClip/Preview Content\"";
+				DEVELOPMENT_TEAM = L8W86DZDY2;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MyAppClip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ri.SharingAssetsWithAnAppClip.Clip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -323,6 +492,15 @@
 			buildConfigurations = (
 				955A532024DAC0A500A49003 /* Debug */,
 				955A532124DAC0A500A49003 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		955A533624DAC15F00A49003 /* Build configuration list for PBXNativeTarget "MyAppClip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				955A533724DAC15F00A49003 /* Debug */,
+				955A533824DAC15F00A49003 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
